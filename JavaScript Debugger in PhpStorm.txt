@@ -1,0 +1,20 @@
+1. Install the JetBrains Chrome Extension
+To enable debugging, you need to install the JetBrains Chrome extension, which allows PhpStorm to communicate with Chrome.
+You can find the extension in the Chrome Web Store.
+2. Configure the JavaScript Debugger in PhpStorm
+Go to Run > Edit Configurations.
+Click on the + button and select JavaScript Debug.
+Specify the name of the configuration.
+Set the URL of the application you want to debug. For example, http://localhost:3000.
+3. Set Breakpoints in Your JavaScript Code
+Open your JavaScript file in PhpStorm.
+Click in the gutter (left margin) next to the line number where you want to set a breakpoint. A red dot will appear.
+4. Start the Debugging Session
+Click the Debug button (a bug icon) or press Shift + F9 to start debugging.
+This will open Chrome and attach the PhpStorm debugger to it.
+5. Inspect and Debug
+When the execution hits a breakpoint, PhpStorm will pause the code, and you can inspect variables, call stacks, and more.
+You can use features like Step Over (F8), Step Into (F7), Step Out (Shift + F8), and Resume Program (F9) to control the flow of your debugging session.
+6. Live Edit (Optional)
+PhpStorm also offers a "Live Edit" feature that allows you to see changes immediately in the browser without refreshing.
+To enable this, go to File > Settings > Build, Execution, Deployment > Debugger > Live Edit and enable it.
