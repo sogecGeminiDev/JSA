@@ -1,0 +1,10 @@
+{
+    "jshint.options": {
+        "esversion": 6
+    },
+    "eslint.debug": true,
+    "eslint.enable": true,
+    "eslint.run": "onSave",  // or "onSave"
+    "eslint.format.enable": true // or "yarn" if you are using Yarn
+
+}
