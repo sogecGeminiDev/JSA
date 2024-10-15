@@ -1,4 +1,5 @@
 require(['dataServer', 'ui'], function(dataServer, ui){
 
-   ui.displayUserData({ name : 'Stephane', age : '43' });
+    const user = dataServer.fetchUserData();
+    ui.displayUserData(user);
 });
