@@ -1,4 +1,14 @@
-// app.js
+/***
+Refactoriser ce code en le structurant de manière logique :
+
+Créer un fichier taskManager.js pour gérer la logique des tâches 
+(addTask, removeTask, listTasks).
+Créer un fichier taskData.js 
+pour gérer les données des tâches (tableau tasks).
+Mettre à jour le fichier app.js pour utiliser ces modules.
+
+
+*/
 
 let tasks = [];
 
@@ -34,12 +44,3 @@ function main() {
 main();
 
 
-/***
-Refactoriser ce code en le structurant de manière logique :
-
-Créer un fichier taskManager.js pour gérer la logique des tâches (addTask, removeTask, listTasks).
-Créer un fichier taskData.js pour gérer les données des tâches (tableau tasks).
-Mettre à jour le fichier app.js pour utiliser ces modules.
-
-
-*/

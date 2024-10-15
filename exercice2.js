@@ -1,4 +1,11 @@
-// app.js
+/***
+Objectif : Refactoriser ce code en séparant les fonctions dans
+ différents fichiers :
+
+Créer un fichier (dataService.js) pour la fonction fetchUserData.
+Créer un autre fichier (ui.js) pour la fonction displayUserData.
+Mettre à jour le fichier app.js pour utiliser ces modules. 
+*/
 
 function fetchUserData() {
     console.log("Récupération des données utilisateur depuis l'API...");
@@ -18,11 +25,4 @@ function main() {
 main();
 
 
-/***
-Objectif : Refactoriser ce code en séparant les fonctions dans
- différents fichiers :
 
-Créer un fichier (dataService.js) pour la fonction fetchUserData.
-Créer un autre fichier (ui.js) pour la fonction displayUserData.
-Mettre à jour le fichier app.js pour utiliser ces modules. 
-*/
