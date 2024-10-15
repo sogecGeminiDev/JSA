@@ -1,0 +1,29 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Alice",
+        "location": {
+          "city": "New York",
+          "coordinates": {
+            "lat": 40.7128,
+            "long": -74.0060
+          }
+        },
+        "hobbies": ["reading", "tennis", "coding"]
+      },
+      {
+        "id": 2,
+        "name": "Bob",
+        "location": {
+          "city": "Los Angeles",
+          "coordinates": {
+            "lat": 34.0522,
+            "long": -118.2437
+          }
+        },
+        "hobbies": ["painting", "guitar", "hiking"]
+      }
+    ]
+  }
+  
