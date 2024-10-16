@@ -8,7 +8,7 @@ Exercice : Écrivez une fonction qui prend deux nombres en entrée et retourne
 le résultat de l'exponentiation.
  */
 function exponentiation(base, exponent) {
-    return base ? exponent;
+    return base ** exponent;
 }
 
 // Test de la fonction
@@ -52,34 +52,3 @@ let animalCherche = 'chien';
 
 
 
-
-// Exercice 4
-
-
-// Exercice 5
-
-
-// Exercice 6
-
-
-// Exercice 7
-
-
-
-// Exercice 8
-
-
-
-// Exercice 9
-
-
-
-
-// Exercice 10
-// Exercice 1
-// Exercice 1
-// Exercice 1
-// Exercice 1
-// Exercice 1
-// Exercice 1
-// Exercice 1
