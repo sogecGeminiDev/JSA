@@ -7,28 +7,30 @@ function validateForm() {
     error.textContent = "";
 
     // Validation du nom d'utilisateur (lettres et chiffres, entre 3 et 15 caractères)
-    let usernameRegex = /^[a-zA-Z0-9]{3,15}$/;
+    let usernameRegex = ;
     if (!usernameRegex.test(username)) {
         error.textContent = "Nom d'utilisateur invalide.";
         return false;
     }
 
-    // Validation de l'email
-    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    // Validation de l'email forme générale
+    // puis un email se termine par google.fr
+    let emailRegex = ;
     if (!emailRegex.test(email)) {
         error.textContent = "Adresse e-mail invalide.";
         return false;
     }
 
     // Validation du mot de passe (au moins 8 caractères, majuscule, minuscule, chiffre, caractère spécial)
-    let passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+    let passwordRegex = ;
     if (!passwordRegex.test(password)) {
         error.textContent = "Mot de passe invalide.";
         return false;
     }
 
-    // Validation du numéro de téléphone (format 123-456-7890)
-    let phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
+    // 1- Validation du numéro de téléphone (format 123-456-7890)
+    // 2- il faut que le numero commence par 07 
+    let phoneRegex = ;
     if (!phoneRegex.test(phone)) {
         error.textContent = "Numéro de téléphone invalide.";
         return false;

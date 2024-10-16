@@ -16,13 +16,13 @@ wss.on('connection', (ws) => {
     console.log('Client connecté');
 
     // Écoute les messages du client
-    ws.on('message', (message) => {
-        const textMessage = message.toString();  // Convertir le Buffer en texte
+    ws.on('message', (msg) => {
+        const textMessage = msg.toString();  // Convertir le Buffer en texte
         console.log('Message reçu :', textMessage);
         //console.log('Message reçu :', message);
 
         // Répond au client
-        ws.send(`Serveur: Reçu votre message - ${message}`);
+        ws.send(`Serveur: Reçu votre message - ${msg}`);
     });
 
     // Envoie un message au client quand il se connecte
